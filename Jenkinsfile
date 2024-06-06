@@ -3,7 +3,7 @@ pipeline {
     stages{
         stage("Clone Code"){
             steps{
-                git url: "https://github.com/Gauravxo/jenkins-project-todo-cicd.git", branch: "master"
+                git url: "https://github.com/alvarotreal/ci-cd_pipeline_project.git", branch: "main"
             }
         }
         stage("Build and Test"){

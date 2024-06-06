@@ -4,4 +4,4 @@ services:
   web:
     image: "gauravxo/todoweb:latest"
     ports:
-      - "7000:7000"
+      - "7003:7003"
