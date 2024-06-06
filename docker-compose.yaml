@@ -2,6 +2,6 @@ version: '3.9'
 
 services:
   web:
-    image: "gauravxo/todoweb:latest"
+    image: "ajtreal/todoweb:latest"
     ports:
       - "7003:7003"
